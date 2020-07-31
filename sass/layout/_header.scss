@@ -1,0 +1,73 @@
+.header {
+
+    &__topbar {
+        background-color: $color-primary;
+        padding-top: 1rem;
+        letter-spacing: 1px;
+
+        &-contact {
+            float: left;
+
+            & > li {
+                display: inline-block;
+                color: $color-white;
+                margin-right: 1rem;
+                font-weight: 600;
+                font-size: 1.4rem;
+
+                & > a {
+                    color: $color-white;
+
+                    & > i {
+                        font-size: 2.2rem;
+                        margin-right: .5rem;
+                    }
+                }
+
+                & > i {
+                    font-size: 2.2rem;
+                    margin-right: .5rem;
+                }
+            }
+
+        }
+
+        &-social {
+            float: right;
+            color: $color-white;
+
+            & > li {
+                display: inline-block;
+                margin: 0;
+                margin-right: 1.5rem;
+                font-size: 1.4rem;
+
+                & > a {
+                    color: $color-white;
+                }
+            }
+        }
+    }
+}
+
+.nav {
+
+    &__logo {
+        height: 5.5rem;
+    }
+
+    &-link {
+        font-size: 2rem;
+    }
+}
+
+.hero {
+    height: 90vh;
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+
+    &__text-box {
+        position: absolute;
+        top: 50%;
+    }
+}
