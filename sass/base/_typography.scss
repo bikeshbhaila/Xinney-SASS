@@ -47,3 +47,26 @@ body {
 
     }
 }
+
+.heading-tertiary {
+    color: $color-black;
+
+    backface-visibility: hidden;
+    margin-bottom: 2rem;
+
+    &--main {
+        font-size: 4rem;
+        font-weight: 500;
+        letter-spacing: .2rem;
+    }
+
+    &--sub {
+        font-weight: 400;
+        font-size: 3rem;
+        letter-spacing: .2rem;
+
+        animation: moveInRight 1s ease-out;
+    }
+
+    
+}

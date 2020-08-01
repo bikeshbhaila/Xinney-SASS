@@ -88,5 +88,29 @@
         }
     }
 
+    &--view-more {
+        border-top: 2px solid $color-primary;
+        border-bottom: 2px solid $color-primary;
+        border-radius: 0;
+        text-decoration: none;
+        color: $color-black;
+        padding: 1rem 2rem;
+        font-size: 2rem;
+        transition: all .2s;
+
+        &:hover {
+            text-decoration: none;
+            background-color: $color-primary;
+            color: $color-white;
+            box-shadow: 0 1rem 2rem rgba($color-black, .15);
+            transform: translateY(-2px);
+        }
+    }
+
+    &--pink {
+        color: $color-white;
+        background-color: $color-primary;
+    }
+
    
 }
